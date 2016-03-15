@@ -1,7 +1,7 @@
 USE codeup_test_db;
 
 SELECT 'PINK FLOYD' AS 'Albums By'\G
-SELECT name FROM albums WHERE artist = 'Pink Floyd';
+FROM albums WHERE artist = 'Pink Floyd';
 
 SELECT 'Release Date' AS 'SGT Pepper'\G
 SELECT release_date YEAR FROM albums WHERE id = 14;
