@@ -1,4 +1,4 @@
-USE codeup_test_db;
+USE employees;
 
 SELECT *
 FROM employees
